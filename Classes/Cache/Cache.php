@@ -43,6 +43,7 @@ class Cache extends \Cmfcmf\OpenWeatherMap\AbstractCache implements SingletonInt
 
     /**
      * Cache constructor.
+     * @throws \TYPO3\CMS\Core\Cache\Exception\NoSuchCacheException
      */
     public function __construct()
     {

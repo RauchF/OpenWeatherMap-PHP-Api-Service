@@ -15,17 +15,13 @@ if (!is_array($TYPO3_CONF_VARS['SYS']['caching']['cacheConfigurations']['openwea
         'title' => 'OpenWeatherMap PHP Api for TYPO3',
         'description' => '',
         'subtype' => '',
-        'available' => TRUE,
+        'available' => true,
         'priority' => 50,
         'quality' => 50,
         'os' => '',
         'exec' => '',
-        'classFile' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath($_EXTKEY) . 'Classes/Service/OpenweathermapPhpApiService.php',
+        'classFile' => \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath($_EXTKEY) .
+            'Classes/Service/OpenweathermapPhpApiService.php',
         'className' => 'RauchF\OpenweathermapPhpApiService\Service\OpenweathermapPhpApiService',
     )
 );
-
-$composerAutoloadFile = \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath($_EXTKEY)
-. 'Resources/Private/Vendor/autoload.php';
-
-require_once($composerAutoloadFile);
