@@ -10,8 +10,8 @@ The library uses the TYPO3 caching framework and TYPO3’s own methods to fetch 
 
 This extension does not have any major requirements
 
-- PHP 5.3-5.6
-- TYPO3 CMS 6.2 up to 7LTS (7.6)
+- PHP 5.3-7.2
+- TYPO3 CMS 6.2 up to 8LTS (8.7)
 - TYPO3 should obviously be able to access the internet
 
 ## Installation
